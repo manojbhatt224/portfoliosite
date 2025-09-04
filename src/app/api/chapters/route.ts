@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { dbConnect } from "../../lib/db";
-import Chapter from "../../models/Chapter";
+import { Chapter, Subject, Class, Title } from "../../models/index";
 
 function safeId(item?: any) {
   return item?._id?.toString() ?? null;

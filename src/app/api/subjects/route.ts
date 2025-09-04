@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { dbConnect } from "../../lib/db";
-import Subject from "../../models/Subject";
+import { Chapter, Subject, Class, Title } from "../../models/index";
 
 export async function GET(req: NextRequest) {
   try {
