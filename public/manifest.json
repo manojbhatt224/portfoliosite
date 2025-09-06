@@ -1,0 +1,16 @@
+{
+  "name": "Manoj Bhatt Portfolio",
+  "short_name": "Manoj Bhatt",
+  "description": "Portfolio of Manoj Bhatt, Digital Innovator & Web Designer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f59e0b",
+  "icons": [
+    {
+      "src": "/logo.gif",
+      "sizes": "any",
+      "type": "image/gif"
+    }
+  ]
+}

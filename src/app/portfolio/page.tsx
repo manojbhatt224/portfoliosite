@@ -19,22 +19,22 @@ const projects: Project[] = [
     title: "Portfolio Website",
     description: "Personal portfolio built with Next.js and Tailwind CSS.",
     technologies: ["Next.js", "Tailwind", "Framer Motion"],
-    image: "/projects/eventmanagement.png",
-    github: "https://github.com/yourusername/portfolio",
+    image: "/projects/portfolio_and_note.png",
+    github: "https://github.com/manojbhatt224/portfoliosite",
   },
   {
     title: "Event Management System",
     description: "Typically designed to be familiar with jotai state management.",
     technologies: ["Node js", "Express", "JSON File", "React", "Jotai"],
     image: "/projects/eventmanagement.png",
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/manojbhatt224/event_management",
   },
   {
     title: "Mobile Sales and Purchase Management System",
     description: "Tracks the purchase and sales history of any mobile shop with its stock level update.",
     technologies: ["MySQL", "Hibernate", "Java", "Spring Boot"],
     image: "/projects/mobilepurchasesale.png",
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/manojbhatt224/Mobile_Sales_and_Customer_Management_System",
   },
   {
     title: "Cafe Management System",
@@ -42,7 +42,7 @@ const projects: Project[] = [
       "Desktop application that connects the kitchen department with counter and manages orders of the customers and generates bills.",
     technologies: ["SQL", "C#.NET"],
     image: "/projects/cafemanagement.jpeg",
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/manojbhatt224/CAFEMANAGEMENT",
   },
 ];
 
