@@ -114,18 +114,20 @@ export default function SubjectPage() {
                 key={chapter._id}
                 className="p-5 bg-white rounded-lg shadow-md border border-gray-200 flex flex-col md:flex-row justify-between items-start md:items-center transition hover:shadow-lg"
               >
-                <div>
+                <div className='p-3'>
                   <h2 className="text-xl font-semibold text-gray-900">{chapter.name}</h2>
                   {chapter.description && (
-                    <p className="text-gray-600 mt-1">{chapter.description}</p>
+                    <p className="text-justify text-gray-600 mt-1">{chapter.description}</p>
                   )}
                 </div>
+<div className='w-full flex justify-center'>
                 <Link
                   href={`/materials/chapter/${chapter._id}`}
-                  className="mt-3 md:mt-0 inline-block bg-yellow-500 hover:bg-yellow-600 text-white text-sm font-semibold px-4 py-2 rounded-md shadow"
+                  className="w-100% m-3 md:mt-0 inline-block bg-yellow-500 hover:bg-yellow-600 text-white text-sm font-semibold px-4 py-2 rounded-md shadow"
                 >
                   View Notes
                 </Link>
+                </div>
               </div>
             ))}
           </div>
